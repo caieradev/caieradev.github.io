@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(215, 57%, 14%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    width: 330px;
+    margin: auto;
+    margin-top: 55px;
+    box-sizing: border-box;
+    padding: 22.32px;
+    border-radius: 10px;
+    background-color: hsl(215, 51%, 18%);
+    box-shadow: 30px 45px 10px hsl(214, 52%, 11%);
+}
+
+.img {
+    height: 283.38px;
+    position: relative;
+    margin: auto;
+}
+
+.equilibrium {
+    width: 100%;
+}
+
+.view {
+    position: absolute;
+    left: 0px;
+    width: 20%;
+    padding: 113.35px;
+    background-color: rgba(0, 255, 255, 0.5);
+    opacity: 0;
+}
+
+.view:hover {
+    opacity: 1;
+}
+
+.border-radious {
+    border-radius: 10px;
+}
+
+.margin-botton {
+    margin-bottom: 15px;
+}
+
+a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+p {
+    color: hsl(213, 24%, 64%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+ul {
+    padding-bottom: 35px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    list-style-position: inside;
+}
+
+.etherium {
+    color: cyan;
+    list-style-image: url("../assets/icon-ethereum.svg");
+    float: left;
+}
+
+.time-left {
+    list-style-image: url("../assets/icon-clock.svg");
+    color: hsl(215, 28%, 40%);
+    float: right;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+}
+
+.creator img {
+    width: 15%;
+    margin-right: 15px;
+}
+
+.creator a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a:hover,
+strong:hover {
+    color: cyan;
+    cursor: pointer;
+}
