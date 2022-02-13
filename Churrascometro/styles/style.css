@@ -5,31 +5,26 @@
     padding: 0px;
 }
 
-html, body {
-    width: 100%;
+html {
+    background-image: linear-gradient(to bottom , #8da8ff, #FFF);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
     height: 100%;
 }
 
 main {
-    flex-grow:  1;
-}
-
-main, footer{
-    flex-shrink: 0;
-}
-
-html {
-    background-image: linear-gradient(to bottom , #8da8ff, #FFF);
-    background-repeat: no-repeat;
-}
-
-main {
+    flex-grow: 1;
     margin: auto;
     width: 80%;
     margin-top: 20px;
     display: flex;
     align-items: center;
-    padding: 0px;
 }
 
 #left {
@@ -41,8 +36,6 @@ main {
 
 #container-left{
     max-width: 500px;
-    position: static;
-    right: 0;
     display: flex;
     flex-direction: column;
 }
@@ -65,8 +58,6 @@ h1 {
     width: 50%;
     height: 550px;
     margin-left: 3%;
-    display: flex;
-    justify-content: flex-start;
 }
 
 #container-right {
@@ -92,6 +83,7 @@ p {
     font-size: 25px;
     text-align: center;
 }
+
 input {
     text-align: center;
     font-weight: bold;
@@ -131,8 +123,6 @@ button:hover {
 footer {
     background-color: black;
     width: 100%;
-    position: fixed;
-    bottom: 0;
 }
 
 footer p {
@@ -157,13 +147,10 @@ a {
 }
 
 @media screen and (max-width: 850px) {
-    body {
-        height: 1100px;
-    }
-
     main {
         display: block;
         width: 90%;
+        margin-bottom: 45px;
     }
     
     #left {
@@ -189,10 +176,5 @@ a {
     }
      button {
          margin-bottom: 15px;
-     }
-
-     footer {
-         position:static;
-         margin-top: 100px;
      }
 }

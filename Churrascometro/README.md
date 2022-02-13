@@ -1,3 +1,4 @@
+*Caso esteja no GitHub, favor utilizar o modo dark, para experiencia completa.<br>
 <p align="center">
   <img alt="Logo Churrascômetro" src="https://github.com/caieradev/Churrascometro/blob/main/assets/Churrascometro.png"/>
   <br><br>
@@ -10,6 +11,10 @@
 
   <a href="mailto:caiombuenof@gmail.com">
     <img alt="Email de Caio Miguel" src="https://img.shields.io/badge/-caiombuenof@gmail.com-0077B7?style=flat&logo=Gmail&logoColor=white" />
+  </a>
+  
+  <a href="https://web.whatsapp.com/send?phone=5551991732630">
+    <img alt="WhasApp de Caio Miguel" src="https://img.shields.io/badge/-WhatsApp-0077B7?style=flat&logo=WhatsApp&logoColor=white" />
   </a>
 </p>
 

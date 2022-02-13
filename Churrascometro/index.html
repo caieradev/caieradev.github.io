@@ -8,63 +8,58 @@
     <link rel="icon" href="./assets/beer.png">
 </head>
 <body>
-
     <main>
         
-        <main>
-            
-            <section id="left">
-                <div id="container-left">
-                    <h1>A Medida Certa Para o Seu Churrasco!</h1>
-                    
-                    <img id="img-churrasco" src="./assets/churrasco.png" alt="">
-                </div>
-            </section>
+        <section id="left">
+            <div id="container-left">
+                <h1>A Medida Certa Para o Seu Churrasco!</h1>
+                
+                <img id="img-churrasco" src="./assets/churrasco.png" alt="">
+            </div>
+        </section>
 
-            <section id="right">
-                <div id="container-right">
-                    <img id="img-churrascometro" src="./assets/Churrascometro.png" alt="">
+        <section id="right">
+            <div id="container-right">
+                <img id="img-churrascometro" src="./assets/Churrascometro.png" alt="">
+                
+                <p>Quantidade de Adultos</p>
+                <input id="adultos" name="adultos" type="tel" placeholder="Adultos" onkeypress="return OnlyNumber()">
+                
+                <p>Quantidade de Crianças</p>
+                <input id="criancas" name="criancas" type="tel" placeholder="Crianças" onkeypress="return OnlyNumber()">
+                
+                <p>Duração do Churrasco</p>
+                <input id="duracao" name="duracao" type="tel" placeholder="Duração (h)" onkeypress="return OnlyNumber()">
+                
+                <button onclick="Calcular()" id="calcular">Calcular</button>
+                
+                <div id="result">
                     
-                    <p>Quantidade de Adultos</p>
-                    <input id="adultos" name="adultos" type="tel" placeholder="Adultos" onkeypress="return OnlyNumber()">
-                    
-                    <p>Quantidade de Crianças</p>
-                    <input id="criancas" name="criancas" type="tel" placeholder="Crianças" onkeypress="return OnlyNumber()">
-                    
-                    <p>Duração do Churrasco</p>
-                    <input id="duracao" name="duracao" type="tel" placeholder="Duração (h)" onkeypress="return OnlyNumber()">
-                    
-                    <button onclick="Calcular()" id="calcular">Calcular</button>
-                    
-                    <div id="result">
+                    <div class="result-block">
                         
-                        <div class="result-block">
-                            
-                            <img class="icon-result" src="./assets/carne.svg" alt="carne">
-                            <p></p>
-                            
-                        </div>
+                        <img class="icon-result" src="./assets/carne.svg" alt="carne">
+                        <p></p>
                         
-                        <div class="result-block">
-                            
-                            <img class="icon-result" src="./assets/cerveja.svg" alt="cerveja">
-                            <p></p>
-                            
-                        </div>
+                    </div>
+                    
+                    <div class="result-block">
                         
-                        <div class="result-block">
-                            
-                            <img class="icon-result" src="./assets/refri.svg" alt="bebida">
-                            <p></p>
-                            
-                        </div>
+                        <img class="icon-result" src="./assets/cerveja.svg" alt="cerveja">
+                        <p></p>
+                        
+                    </div>
+                    
+                    <div class="result-block">
+                        
+                        <img class="icon-result" src="./assets/refri.svg" alt="bebida">
+                        <p></p>
                         
                     </div>
                     
                 </div>
-            </section>
-
-        </main>
+                
+            </div>
+        </section>
 
     </main>
 
